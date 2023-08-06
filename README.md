@@ -1,6 +1,11 @@
 # 006-drink_stroe_pos
 
-This template should help get you started developing with Vue 3 in Vite.
+功能使用介紹：
+1. 右邊選單可以選擇飲料的分類，分類帶動下面商品名稱。
+2. 點擊商品名稱按鈕可以進入個人化設定。
+3. 除了基本的口味設定，還可以增加備註與折扣優惠。
+4. 點擊送出按鈕後，會將資訊顯示再左手邊視窗。
+5. 下方會計算本單總金額，刪除按鈕可以清空本單。
 
 ## Recommended IDE Setup
 
