@@ -5,26 +5,23 @@ const store = drinkListStore(); //🍍
 
 // 初始化資料
 const localStorageOrders = ref([]);
+localStorage.setItem('singleOrder', JSON.stringify(localStorageOrders.value));
 localStorageOrders.value = JSON.parse(localStorage.getItem('singleOrder'));
 
 const totalCupNum = computed(() => {
-  // localStorageOrders.value = JSON.parse(localStorage.getItem('singleOrder'));
   let totalCup = 0;
   localStorageOrders.value.forEach((item, index) => {
     totalCup = totalCup + Number(item.cupNum);
   })
   return totalCup;
 })
-
 const totalPrice = computed(() => {
-  // localStorageOrders.value = JSON.parse(localStorage.getItem('singleOrder'));
   let totalP = 0;
   localStorageOrders.value.forEach((item, index) => {
-    totalP = totalP + (item.productPrice * Number(item.cupNum) );
+    totalP = totalP + (item.productPrice * Number(item.cupNum));
   })
   return totalP;
 })
-
 
 function clearLocalStorage() {
   let check = confirm('確定刪除嗎?')
@@ -34,7 +31,7 @@ function clearLocalStorage() {
       let temporaryArr = JSON.parse(localStorage.getItem('singleOrder'));
       temporaryArr.length = 0;
       localStorage.setItem('singleOrder', JSON.stringify(temporaryArr));
-      // 清空後重置模板
+      // 清空後重讀資料 & 模板
       localStorageOrders.value = JSON.parse(localStorage.getItem('singleOrder'))
     }
   }
@@ -75,12 +72,14 @@ watch(store.newOrder, (newVal) => {
         v-for="(item, index) in  localStorageOrders "
         :key="index"
       >
+        <!-- 商品名稱 + 價錢 -->
         <div class="items">
           <span class="item name">{{ index + 1 }} - {{ item.productName }}</span>
           <span class="item single-price">{{ item.productPrice + item.bubblePrice }}</span>
           <span class="item num">{{ item.cupNum }}</span>
           <span class="item total-price">{{ (item.productPrice + item.bubblePrice) * item.cupNum }}</span>
         </div>
+        <!-- 詳細內容 -->
         <div class="detail">
           {{ item.capacity }} /
           {{ item.sweet }} /
@@ -94,13 +93,14 @@ watch(store.newOrder, (newVal) => {
             </span>
           </span>
         </div>
+        <!-- 備註 -->
         <span
           class="remark"
           v-if="item.remark !== ''"
         >
           註： {{ item.remark }}
         </span>
-
+        <!-- 折扣 -->
         <span
           class="discount"
           v-if="item.discount.length !== 0"
@@ -114,8 +114,8 @@ watch(store.newOrder, (newVal) => {
           </span>
 
         </span>
-      </div>
 
+      </div>
 
     </div>
 
