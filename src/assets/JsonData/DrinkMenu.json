@@ -1,0 +1,318 @@
+[
+  {
+    "key" : "A01",
+    "category" : "原茶",
+    "menu" : [
+      {
+        "name" : "紅茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "25"
+          },
+          {
+            "capacity" : "L",
+            "price" : "30"
+          }
+        ]
+      },
+      {
+        "name" : "綠茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "25"
+          },
+          {
+            "capacity" : "L",
+            "price" : "30"
+          }
+        ]
+      },
+      {
+        "name" : "春烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "30"
+          },
+          {
+            "capacity" : "L",
+            "price" : "35"
+          }
+        ]
+      },
+      {
+        "name" : "輕烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "30"
+          },
+          {
+            "capacity" : "L",
+            "price" : "35"
+          }
+        ]
+      },
+      {
+        "name" : "焙烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "30"
+          },
+          {
+            "capacity" : "L",
+            "price" : "35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key" : "A02",
+    "category" : "水果風味",
+    "menu" : [
+      {
+        "name" : "檸檬春烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "45"
+          },
+          {
+            "capacity" : "L",
+            "price" : "55"
+          }
+        ]
+      },
+      {
+        "name" : "香橙春烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "55"
+          },
+          {
+            "capacity" : "L",
+            "price" : "65"
+          }
+        ]
+      },
+      {
+        "name" : "甘蔗春烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "55"
+          },
+          {
+            "capacity" : "L",
+            "price" : "65"
+          }
+        ]
+      },
+      {
+        "name" : "優酪春烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "50"
+          },
+          {
+            "capacity" : "L",
+            "price" : "60"
+          }
+        ]
+      },
+      {
+        "name" : "百香果綠茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "45"
+          },
+          {
+            "capacity" : "L",
+            "price" : "55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key" : "A03",
+    "category" : "芝士奶蓋",
+    "menu" : [
+      {
+        "name" : "芝士奶蓋春烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "45"
+          },
+          {
+            "capacity" : "L",
+            "price" : "55"
+          }
+        ]
+      },
+      {
+        "name" : "芝士奶蓋焙烏龍",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "45"
+          },
+          {
+            "capacity" : "L",
+            "price" : "55"
+          }
+        ]
+      },
+      {
+        "name" : "芝士奶蓋抹茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "55"
+          },
+          {
+            "capacity" : "L",
+            "price" : "65"
+          }
+        ]
+      },
+      {
+        "name" : "芝士奶蓋阿華田",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "55"
+          },
+          {
+            "capacity" : "L",
+            "price" : "65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key" : "A04",
+    "category" : "經典奶茶",
+    "menu" : [
+      {
+        "name" : "奶茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "40"
+          },
+          {
+            "capacity" : "L",
+            "price" : "45"
+          }
+        ]
+      },
+      {
+        "name" : "焙烏龍奶茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "40"
+          },
+          {
+            "capacity" : "L",
+            "price" : "45"
+          }
+        ]
+      },
+      {
+        "name" : "珍珠奶茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "50"
+          },
+          {
+            "capacity" : "L",
+            "price" : "55"
+          }
+        ]
+      },
+      {
+        "name" : "黃金珍珠奶茶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "55"
+          },
+          {
+            "capacity" : "L",
+            "price" : "60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key" : "A05",
+    "category" : "鮮奶茶",
+    "menu" : [
+      {
+        "name" : "紅茶鮮奶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "50"
+          },
+          {
+            "capacity" : "L",
+            "price" : "60"
+          }
+        ]
+      },
+      {
+        "name" : "輕烏龍鮮奶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "50"
+          },
+          {
+            "capacity" : "L",
+            "price" : "60"
+          }
+        ]
+      },
+      {
+        "name" : "焙烏龍鮮奶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "50"
+          },
+          {
+            "capacity" : "L",
+            "price" : "60"
+          }
+        ]
+      },
+      {
+        "name" : "抹茶鮮奶",
+        "priceList" : [
+          {
+            "capacity" : "M",
+            "price" : "65"
+          },
+          {
+            "capacity" : "L",
+            "price" : "null"
+          }
+        ]
+      }
+    ]
+  }
+]

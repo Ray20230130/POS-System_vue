@@ -1,0 +1,21 @@
+/* 當全域用 */
+
+:root{
+  --color001:#2B313D;
+  --color001-disable:#4d525c;
+  --color002:#576379;
+  --color003:#07c700;
+  --color004:#048702;
+  --color005:#f8f8f8;
+  --color006:#a4f0a2a4;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
